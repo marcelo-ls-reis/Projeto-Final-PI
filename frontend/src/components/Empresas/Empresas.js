@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Cabecalho from "../Cabecalho/Cabecalho.js";
 import MenuHorizontal from "../MenuHorizontal/MenuHorizontal.js";
 import api from "../../services/api.js"
 import Moment from 'react-moment'
@@ -16,7 +15,6 @@ function Empresas() {
 
   return (
     <div id="idUsuarios" className="divider">
-      <Cabecalho />
       <MenuHorizontal />
       <legend>Registros de Empresas Cadastrados</legend>
       <div className="divider">

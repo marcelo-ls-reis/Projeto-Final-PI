@@ -4,8 +4,7 @@ import "./AreaDados.css"
 export default function AreaDados() {
   return (
     <div className="areaDados">
-      Mensagem da Área de Dados
-
+      Torne-se um Profissional
     </div>
   );
 }

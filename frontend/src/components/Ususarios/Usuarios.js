@@ -1,6 +1,5 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Cabecalho from "../Cabecalho/Cabecalho.js";
 import MenuHorizontal from "../MenuHorizontal/MenuHorizontal.js";
 import api from "../../services/api.js"
 import Moment from 'react-moment'
@@ -16,7 +15,6 @@ function Usuarios() {
 
   return (
     <div id="idUsuarios" className="divider">
-      <Cabecalho />
       <MenuHorizontal />
       <legend>Registros de Usuarios Cadastrados</legend>
       <div className="divider">
@@ -26,7 +24,7 @@ function Usuarios() {
               <th id='t_codigo'> Código </th>
               <th id='t_descricao'> Usuarios </th>
               <th id='t_telefone'> Telefone </th>
-              <th id='t_email'> E-Mail </th>
+              <th id='t_email'> E_Mail </th>
               <th id='t_dtinclusao'> Inclusão </th>
               <th id='t_dtalteracao'> Alteração </th>
               <th id="novo"> <a class="btn btn-success btn-block">Novo Registro</a> </th>

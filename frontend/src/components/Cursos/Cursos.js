@@ -1,12 +1,8 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import Cabecalho from "../Cabecalho/Cabecalho.js";
 import MenuHorizontal from "../MenuHorizontal/MenuHorizontal.js";
-
 import api from "../../services/api.js"
-
 import Moment from 'react-moment'
-
 import "./Cursos.css"
 
 function Cursos() {
@@ -23,7 +19,6 @@ function Cursos() {
   return (
 
     <div id="idCursos" className="divider">
-      <Cabecalho />
       <MenuHorizontal />
 
       <legend>Registros de Cursos Cadastrados</legend>
